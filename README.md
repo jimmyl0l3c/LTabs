@@ -1,4 +1,6 @@
-* About this extension:
+- About this extension:
+
+A fork of [FuzzyTabs](https://github.com/NathanMH/FuzzyTabs) extension with redesigned interface and additional features.
 
 Quickly search (fuzzily!) through all your open tabs/bookmarks to switch to/open instantly.
 
@@ -8,14 +10,14 @@ Works great with other tab extensions such as Tree Style Tab.
 
 Will open tabs in other windows
 
-* Usage:
+- Usage:
 
   1. Default keybinding is F2
   2. Seach for keywords, snippets, or any string in a tab title
   3. Enter key will automatically open the first result
   4. Use the tab key to focus the item and enter to select (or just use the mouse!)
 
-* Future Updates:
+- Future Updates:
 
   - Custom keybindings
   - Custom colour options
@@ -23,13 +25,14 @@ Will open tabs in other windows
   - Option to see fuzzy match scores and limit results
   - Add option to allow/disallow typos
 
-* Permissions:
+- Permissions:
+
   - tabs
   - activeTab
   - bookmarks
   - sessions
 
-* Disclaimers
+- Disclaimers
 
 FuzzyTabs does not collect or store any information about your browser, tabs, windows, or any other data.
 
