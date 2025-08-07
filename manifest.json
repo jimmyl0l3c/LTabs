@@ -1,11 +1,11 @@
 {
-    "version": "0.2",
+    "version": "0.3",
     "manifest_version": 2,
     "name": "FuzzyTabs",
     "description": "A quick and convenient fuzzy tab search.",
     "applications": {
         "gecko": {
-            "id": "addon@example.com"
+            "id": "fuzzy-tabs@joska.dev"
         }
     },
     "icons": {
@@ -37,7 +37,8 @@
         "sessions",
         "bookmarks",
         "menus",
-        "storage"
+        "storage",
+        "theme"
     ],
     "commands": {
         "_execute_browser_action": {

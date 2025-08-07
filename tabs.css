@@ -1,31 +1,14 @@
-html, body {
+html,
+body {
   width: 550px;
-  height: 500px;
-  display: block;
-  /* padding-top: 20px; */
+  height: 450px;
 }
 
-.switch-tabs a {
-  display: block;
-  height: 50px;
-  width: 100%;
-  padding: 10px;
-  /* transition: 0.2s; */
+.list-group {
+  overflow: scroll;
 }
 
-.panel {
-  margin: 5px;
-}
-
-#form-container {
-  background-color: #474749;
-}
-
-#find-form {
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
+a {
+  text-decoration: none !important;
+  color: var(--bs-body-color) !important;
 }

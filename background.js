@@ -33,4 +33,3 @@ browser.tabs.onCreated.addListener(
         updateCount(tabId, false);
     });
 updateCount();
-
