@@ -1,0 +1,11 @@
+{
+    "version": { "license": "MIT" },
+    "categories": { "firefox": ["tabs"] },
+    "requires_payment": false,
+    "homepage": {
+        "en-US": "https://github.com/jimmyl0l3c/LTabs"
+    },
+    "support_email": {
+        "en-US": "l-tabs@joska.dev"
+    }
+}
