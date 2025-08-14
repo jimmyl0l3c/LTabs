@@ -3,9 +3,9 @@
   "manifest_version": 2,
   "name": "L-Tabs",
   "description": "A quick and convenient fuzzy tab search.",
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
-      "id": "fuzzy-tabs@joska.dev"
+      "id": "l-tabs@joska.dev"
     }
   },
   "icons": {
