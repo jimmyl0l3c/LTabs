@@ -1,6 +1,6 @@
 {
   "version": "0.3.1",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "L-Tabs",
   "description": "A quick and convenient fuzzy tab search.",
   "browser_specific_settings": {
@@ -13,19 +13,18 @@
     "96": "icons/icon-96.png"
   },
   "background": {
-    "scripts": ["background.js", "tabs.js"]
+    "scripts": ["search/tabs.js"]
   },
-  "browser_action": {
-    "browser_style": false,
+  "action": {
     "default_title": "L-Tabs",
-    "default_popup": "tabs.html",
+    "default_popup": "search/tabs.html",
     "default_icon": {
       "48": "icons/icon-48.png",
       "96": "icons/icon-96.png"
     }
   },
   "options_ui": {
-    "page": "options.html"
+    "page": "options/options.html"
   },
   "homepage_url": "https://github.com/jimmyl0l3c/LTabs",
   "permissions": [
@@ -37,7 +36,7 @@
     "storage"
   ],
   "commands": {
-    "_execute_browser_action": {
+    "_execute_action": {
       "suggested_key": {
         "default": "F2"
       },

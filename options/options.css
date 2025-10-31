@@ -1,0 +1,10 @@
+.button-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+body {
+  background-color: -moz-Dialog;
+  color: -moz-DialogText;
+}
