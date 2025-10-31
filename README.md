@@ -1,41 +1,41 @@
-- About this extension:
+# L-Tabs
 
 A fork of [FuzzyTabs](https://github.com/NathanMH/FuzzyTabs) extension with redesigned interface and additional features.
 
-Quickly search (fuzzily!) through all your open tabs/bookmarks to switch to/open instantly.
+L-Tabs is an extension for fuzzy-finding an open tab to switch to.
+Inspired by [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim).
 
-Inspired by the 'helm' package for Emacs (specifically the helm-buffers-list command).
+## Usage
 
-Works great with other tab extensions such as Tree Style Tab.
+- Default keymap to open search: `F2`
+- Search for any keywords, snippets, or substrings from the tab title
+- Enter key automatically switches to the currently selected tab
+- To focus a different tab, you can use up/down arrows.
 
-Will open tabs in other windows
+## Planned changes/features
 
-- Usage:
+- Fix the autofocus issue
+- Refactor/replace the fuzzy sort algorithm
+- Scroll down when focusing items that overflow the window height
+- Highlight the matched substrings
+- Add debug option to show match score
+- Hide tabs that have no match
+- Frecency?
+- Theming support?
 
-  1. Default keybinding is F2
-  2. Seach for keywords, snippets, or any string in a tab title
-  3. Enter key will automatically open the first result
-  4. Use the tab key to focus the item and enter to select (or just use the mouse!)
+## Permissions:
 
-- Future Updates:
+NOTE: These will be revised, some of these are most likely not required.
 
-  - Custom keybindings
-  - Custom colour options
-  - Bookmarks optional
-  - Option to see fuzzy match scores and limit results
-  - Add option to allow/disallow typos
+- tabs
+- activeTab
+- sessions
+- bookmarks
+- menus
+- storage
 
-- Permissions:
+## Disclaimers
 
-  - tabs
-  - activeTab
-  - bookmarks
-  - sessions
+L-Tabs does not collect or store any information about your browser, tabs, windows, or any other data.
 
-- Disclaimers
-
-FuzzyTabs does not collect or store any information about your browser, tabs, windows, or any other data.
-
-FuzzyTabs does not access any external resources.
-
-FuzzyTabs is licensed under MIT
+L-Tabs does not access any external resources.

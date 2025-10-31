@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+
+- Updated README
+
+## O.3.1 - 2025-08-14
+
 ### Added
 
 - Change selection using Up/Down arrows
@@ -17,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Redesigned UI
 - Updated bootstrap
 
-## V0.2 (2018-09-12)
+## 0.2 - 2018-09-12
 
 - Change keybinding to F2
 - Fix file not found error on tab select
@@ -25,6 +31,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduce console spam
 - Limit tab/bookmark titles to first 64 characters
 
-## V0.1
+## 0.1
 
 - First release
