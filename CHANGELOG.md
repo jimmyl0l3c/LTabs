@@ -10,14 +10,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Clean settings
+- Refactor search popup logic
 - Refactor source structure
 - Migrate to manifest v3
 - Updated README
 
 ## Removed
 
+- Combined search of tabs and bookmarks
 - Unused theming options from settings
 - Tab counter
+- Unnecessary background scripts
 
 ## O.3.1 - 2025-08-14
 

@@ -12,9 +12,6 @@
     "48": "icons/icon-48.png",
     "96": "icons/icon-96.png"
   },
-  "background": {
-    "scripts": ["search/tabs.js"]
-  },
   "action": {
     "default_title": "L-Tabs",
     "default_popup": "search/tabs.html",
