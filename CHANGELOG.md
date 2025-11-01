@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Fixed
+
+- Attempt to fix search input not auto-focusing 🤞
+- Pressing up/down arrows or enter when the list is empty is now ignored (previously caused error)
+
 ### Changed
 
 - Clean settings
@@ -15,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Migrate to manifest v3
 - Updated README
 
-## Removed
+### Removed
 
 - Combined search of tabs and bookmarks
 - Unused theming options from settings
