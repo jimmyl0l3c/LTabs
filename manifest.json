@@ -5,7 +5,10 @@
   "description": "A quick and convenient fuzzy tab search.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "l-tabs@joska.dev"
+      "id": "l-tabs@joska.dev",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
   "icons": {
