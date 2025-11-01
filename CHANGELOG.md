@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.4.0 - 2025-11-01
+
 ### Fixed
 
 - Attempt to fix search input not auto-focusing 🤞
@@ -27,7 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tab counter
 - Unnecessary background scripts
 
-## O.3.1 - 2025-08-14
+## 0.3.1 - 2025-08-14
 
 ### Added
 
